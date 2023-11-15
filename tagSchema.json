@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "issuedBy": {
+      "type": "string",
+      "title": "Issuer"
+    },
+    "issueDate": {
+      "type": "string",
+      "format": "date",
+      "title": "Issue Date"
+    },
+    "expiryDate": {
+      "type": "string",
+      "format": "date",
+      "title": "Expiry Date"
+    },
+    "docNo": {
+      "type": "number",
+      "title": "Document Number"
+    }
+  }
+}
